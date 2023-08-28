@@ -24,31 +24,30 @@ header {
 h1 {
     width: 800px;
     margin-bottom: 2px;
+    font-weight: 900;
 }
 
 main {
     width: 1050px;
 }
 
-span {
+#booleaners {
     font-size: larger;
-    color: #4EA0FF;
+    color: #20A9E5;
 }
 
 .day, .author, .advertisments {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    color: darkgrey;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #919191;
     font-size: 1.2em;
-    text-shadow: darkgrey;
-    font-weight: 700px;
 }
 
-.day{
+.day {
     margin-bottom: 20px;
 }
 
-.title{
+.title {
     margin-top: 20px;
 }
 
@@ -62,11 +61,16 @@ span {
     margin-bottom: 35px;
 }
 
+.underline {
+    background-color: yellow;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
     text-align: left;
     margin-bottom: 25px;
+    margin-top: 35px;
   }
 
 td {
@@ -96,4 +100,13 @@ margin-bottom: 10px;
     font-size: 1.3em;
     font-weight: bolder;
 }
-    
+
+.advertisments {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
