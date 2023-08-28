@@ -1,6 +1,7 @@
 body {
     display: block;
     margin: 0px;
+    padding-left: 8px;
 }
 
 header {
@@ -10,10 +11,6 @@ header {
     background-image: url(./img/pattern.png);
     background-repeat: repeat-x;
     background-size: 300px 150px;
-}
-
-div { 
-    padding-left: 10px;
 }
 
 .logo-booleaners {
@@ -26,21 +23,26 @@ div {
 
 h1 {
     width: 800px;
+    margin-bottom: 2px;
 }
+
 span {
     font-size: larger;
     color: #4EA0FF;
 }
 
-p {
+.day, .author{
+    margin-top: 2px;
+    margin-bottom: 2px;
     color: darkgrey;
     font-size: 1em;
 }
 
-.day{
+.comment-1, .comment-2 {
     margin-top: 2px;
+    margin-bottom: 2px;
 }
 
-.author {
-    margin-bottom: 2px;
+.article-1 {
+    margin-bottom: 35px;
 }
