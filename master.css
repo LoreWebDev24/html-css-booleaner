@@ -26,23 +26,74 @@ h1 {
     margin-bottom: 2px;
 }
 
+main {
+    width: 1050px;
+}
+
 span {
     font-size: larger;
     color: #4EA0FF;
 }
 
-.day, .author{
+.day, .author, .advertisments {
     margin-top: 2px;
     margin-bottom: 2px;
     color: darkgrey;
-    font-size: 1em;
+    font-size: 1.2em;
+    text-shadow: darkgrey;
+    font-weight: 700px;
+}
+
+.day{
+    margin-bottom: 20px;
+}
+
+.title{
+    margin-top: 20px;
 }
 
 .comment-1, .comment-2 {
     margin-top: 2px;
     margin-bottom: 2px;
+    font-size: 0.7em;
 }
 
 .article-1 {
     margin-bottom: 35px;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+td {
+    width:400px ;
+}
+
+.riga1 {
+    background-color:#4EA0FF ;
+}
+
+.riga2, .riga4 {
+    background-color:#B1E5F2 ;
+
+}
+
+.monitor-adv, .advertisments { 
+margin-bottom: 10px;
+}
+
+.centered {
+    width: 312px;
+    margin-top: 20px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+    
