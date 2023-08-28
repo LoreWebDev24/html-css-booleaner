@@ -1,0 +1,46 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+header {
+    width:auto;
+    height: 125px;
+    background-color: #4EA0FF;
+    background-image: url(./img/pattern.png);
+    background-repeat: repeat-x;
+    background-size: 300px 150px;
+}
+
+div { 
+    padding-left: 10px;
+}
+
+.logo-booleaners {
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+h1 {
+    width: 800px;
+}
+span {
+    font-size: larger;
+    color: #4EA0FF;
+}
+
+p {
+    color: darkgrey;
+    font-size: 1em;
+}
+
+.day{
+    margin-top: 2px;
+}
+
+.author {
+    margin-bottom: 2px;
+}
